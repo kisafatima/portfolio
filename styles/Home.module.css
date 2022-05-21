@@ -1,0 +1,346 @@
+.box {
+  padding: 0 2rem;
+}
+.main {
+  min-height: 100vh;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.name{
+  font-family: "Mr Dafoe", sans-serif;
+  font-size: 82px;
+  animation: 2s anim-lineUp ease-out ;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+.tagline{
+  font-family: "Sriracha", sans-serif;
+  font-size: 36px;
+
+}
+.fletter{
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.about {
+  justify-content: center;
+  align-items: center;
+  padding: 5% 15% 8% 15% ;
+  width: 100%;
+  /* margin: 0% 0% -10% 0%; */
+  z-index: -1;
+  color: white;
+  background: #2C3E50;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.abouttext{
+  text-align: justify;
+  font-size: 20px;
+font-family: "IBM Plex Sans Thai Looped", sans-serif;
+  padding: 30px 30px 30px 30px;
+ }
+
+.flexelement{
+  width: 32%;
+}
+.flexelement1{
+  width: 32%;
+  margin-left: 20px;
+}
+.aboutContainer{
+  min-height: 100vh;
+  flex: 1;
+  width: 100%;
+  margin-bottom: 30px;
+  
+  /* box-shadow:
+  24px 27px 42px rgba(0, 0, 0, 0.22) */
+ 
+}
+.skills{
+  position:relative;
+  bottom: 80px;
+  background-color: white;
+  margin: 0px 5% 0px 5%;
+  padding: 20px 0px 20px 40px;
+  z-index: 1;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow:
+  24px 27px 42px rgba(0, 0, 0, 0.22)
+ 
+}
+/* .aboutContainer:hover {
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 10px 10px 10px rgba(0,0,0,.25);
+} */
+
+.abouthead{
+  font-family: "Sriracha", sans-serif;
+  text-align: center;
+  
+}
+.edu{
+  min-height: 100vh;
+  flex: 1;
+  margin: 50px 5% 20px 5%;
+}
+.eduhead{
+  font-family: "Sriracha", sans-serif;
+  text-align: left;
+
+}
+
+.coursehead{
+  font-family: "Sriracha", sans-serif;
+  text-align: right;
+  flex: 1;
+}
+.edutext{
+  margin-top: 20px;
+  font-family: "itim", sans-serif;
+  font-size: 22px;
+}
+
+.projectContainer{
+  min-height: 100vh;
+  flex: 1;
+  margin: 0px 15px 0px 15px;
+}
+.projects{
+ 
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.projecthead{
+  font-family: "Sriracha", sans-serif;
+  text-align: center;
+  margin: 20px 0px 20px 0px ;
+}
+
+.box {
+  position: relative;
+  width: 30%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.box:hover .image {
+  opacity: 0.5;
+}
+
+.box:hover .middle {
+  opacity: 1;
+}
+
+.button {
+  z-index: 1;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+  color: white;
+  /* padding: 0.5em 1em; */
+  outline: none;
+  border: none;
+  background-color: hsl(236, 32%, 26%);
+  overflow: hidden;
+  cursor: pointer;
+  
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.button::after {
+  content: '';
+  z-index: -1;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  position: absolute;
+  top: -50%;
+  bottom: -50%;
+  width: 1.25em;
+  transform: translate3d(-525%, 0, 0) rotate(35deg);
+}
+
+.button:hover::after {
+  transition: transform 0.45s ease-in-out;
+  transform: translate3d(200%, 0, 0) rotate(35deg);
+
+}
+
+.text {
+  background-color: #04AA6D;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+
+.footer {
+  flex: 1;
+  margin-top: 40px;
+  width: 100%;
+  
+}
+
+.contact{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+  padding: 40px 15px ;
+  font-family: "itim", sans-serif;
+  border-radius: 10px ;
+  background: #141E30;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  color: white;
+  /* border:  0.1px solid gray; */
+  box-shadow:
+  24px 27px 42px rgba(0, 0, 0, 0.22)
+}
+
+
+
+
+.links{
+  min-height: 80vh;
+  align-items: center;
+  text-align: center;
+  /* background-color: #141c3a; */
+  background: #2C3E50;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #4CA1AF, #2C3E50);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #4CA1AF, #2C3E50); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+  border-top: 1px solid gray;
+  padding: 60px 0px 60px 0px;
+  color: white;
+  position: relative;
+  top: -60px;
+  z-index: -1;
+  width: 100%;
+}
+.icons{
+  padding-top: 50px;
+ 
+}
+.icon{
+  font-size: 34px;
+  border: 1px solid gray;
+  padding: 6px;
+  border-radius: 50% 50% 50% 50%;
+  margin-right: 2%;
+}
+
+.contactpage{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 50px 0 50px 0;
+
+}
+.contactpage h3{
+    font-size: 32px;
+    font-weight: bold;
+    padding: 0px 20% 0px 20%;
+}
+
+.sutitle{
+  text-align: center;
+  padding-bottom: .5rem;
+  font-weight: bold;
+  font-size: large;
+  /* background-color: #d9534f; */
+}
+.mycard{
+  width: 25rem;
+  margin-top: 20px;
+  padding: 2rem 2rem;
+  text-align: left;
+  font-size: 14px;
+}
+
+
+
+@media (max-width: 600px) {
+  .grid {
+    width: 100%;
+    flex-direction: column;
+  }
+  .name{
+    font-size: 56px;
+  }
+  .tagline{
+    font-size: 16px;
+  }
+  .skills{
+    flex-direction: column;
+  }
+  .flexelement{
+    width: auto;
+  }
+  .edu{
+    display: flex;
+    flex-direction: column;
+  }
+  .projects, .contact{
+    flex-direction: column;
+  }
+  .box{
+    width: 90%;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5%;
+
+  }
+  .coursehead{
+    text-align: left;
+  }
+}

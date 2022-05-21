@@ -1,0 +1,56 @@
+html,
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+   
+}
+h5{
+  font-family: "IBM Plex Sans Thai Looped", sans-serif;
+
+}
+h3{
+  font-family: "Tenor Sans", sans-serif;
+}
+p{
+  animation: type 8s steps(60, end); 
+}
+
+h1 {
+  position: relative;
+}
+
+h1::before, h1::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background-color: hsl(236, 32%, 26%);
+  transform: scaleX(0);
+  transition: transform 0.5s ease;
+}
+
+h1::before {
+  top: 0;
+  transform-origin: center right;
+}
+
+h1:hover::before {
+  transform-origin: center left;
+  transform: scaleX(1);
+}
+
+h1::after {
+  bottom: 0;
+  transform-origin: center left;
+}
+
+h1:hover::after {
+  transform-origin: center right;
+  transform: scaleX(1);
+}
+
