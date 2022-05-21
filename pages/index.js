@@ -200,7 +200,7 @@ export default function Home() {
         <div className={styles.projects}>
         <div className={styles.box}> 
         
-        <Image src="/eweb.png" alt="Ecommerce Website" layout="intrinsic" width={500} height={500} quality='100' />
+        <Image src="/images/eweb.png" alt="Ecommerce Website" layout="intrinsic" width={500} height={500} quality='100' />
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="http://smartcart.unaux.com/?i=1" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
@@ -208,7 +208,7 @@ export default function Home() {
         
         <div className={styles.box}> 
         
-        <Image src="/mhcollection.png" alt="MH Collection" layout="intrinsic" width={500} height={420} quality='100'/>
+        <Image src="/images/mhcollection.png" alt="MH Collection" layout="intrinsic" width={500} height={420} quality='100'/>
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="https://kisafatima.github.io/MHCollection/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
@@ -216,7 +216,7 @@ export default function Home() {
 
         <div className={styles.box}> 
         
-        <Image src="/todo.png" alt="ToDo" layout="intrinsic" width={500} height={450} quality='100' />
+        <Image src="/images/todo.png" alt="ToDo" layout="intrinsic" width={500} height={450} quality='100' />
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="https://todo-app-fb18b.web.app/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
@@ -226,7 +226,7 @@ export default function Home() {
         <div className={styles.projects}>
         <div className={styles.box}> 
         
-        <Image src="/calculator.png" alt="Calculator" layout="intrinsic" width={500} height={460} quality='100' />
+        <Image src="/images/calculator.png" alt="Calculator" layout="intrinsic" width={500} height={460} quality='100' />
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="https://kisafatima.github.io/Calculator/" passHref ><div className={styles.button}>Visit Website </div></Link></a>
          </div>
@@ -234,7 +234,7 @@ export default function Home() {
         
         <div className={styles.box}> 
         
-        <Image src="/tictactoe.png" alt="Tic Tac Toe" layout="intrinsic" width={500} height={460} quality='100'/>
+        <Image src="/images/tictactoe.png" alt="Tic Tac Toe" layout="intrinsic" width={500} height={460} quality='100'/>
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="https://kisafatima.github.io/TicTacToe/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
@@ -242,7 +242,7 @@ export default function Home() {
 
         <div className={styles.box}> 
         
-        <Image src="/quiz.png" alt="Quiz" layout="intrinsic" width={500} height={450} quality='100' />
+        <Image src="/images/quiz.png" alt="Quiz" layout="intrinsic" width={500} height={450} quality='100' />
          <div className={styles.middle}>
           <a target="_blank" ><Link  href="https://kisafatima.github.io/Quiz/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
