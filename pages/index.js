@@ -202,7 +202,7 @@ export default function Home() {
         
         <Image src="/eweb.png" alt="Vercel Logo" layout="intrinsic" width={500} height={500} quality='100' />
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="http://smartcart.unaux.com/?i=1" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="http://smartcart.unaux.com/?i=1" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
         
@@ -210,7 +210,7 @@ export default function Home() {
         
         <Image src="/mhcollection.png" alt="Vercel Logo" layout="intrinsic" width={500} height={420} quality='100'/>
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="https://kisafatima.github.io/MHCollection/" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="https://kisafatima.github.io/MHCollection/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
 
@@ -218,7 +218,7 @@ export default function Home() {
         
         <Image src="/todo.png" alt="Vercel Logo" layout="intrinsic" width={500} height={450} quality='100' />
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="https://todo-app-fb18b.web.app/" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="https://todo-app-fb18b.web.app/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
 
@@ -228,7 +228,7 @@ export default function Home() {
         
         <Image src="/calculator.png" alt="Vercel Logo" layout="intrinsic" width={500} height={460} quality='100' />
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="https://kisafatima.github.io/Calculator/" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="https://kisafatima.github.io/Calculator/" passHref ><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
         
@@ -236,7 +236,7 @@ export default function Home() {
         
         <Image src="/tictactoe.png" alt="Vercel Logo" layout="intrinsic" width={500} height={460} quality='100'/>
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="https://kisafatima.github.io/TicTacToe/" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="https://kisafatima.github.io/TicTacToe/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
 
@@ -244,7 +244,7 @@ export default function Home() {
         
         <Image src="/quiz.png" alt="Vercel Logo" layout="intrinsic" width={500} height={450} quality='100' />
          <div className={styles.middle}>
-          <a target="_blank" ><Link  href="https://kisafatima.github.io/Quiz/" ><div className={styles.button}>Visit Website </div></Link></a>
+          <a target="_blank" ><Link  href="https://kisafatima.github.io/Quiz/" passHref><div className={styles.button}>Visit Website </div></Link></a>
          </div>
         </div>
 
@@ -261,7 +261,7 @@ export default function Home() {
                 <p>Interested in working together? We should queue up a chat.</p>
             </Col>
             <Col>
-            <Link  href="/contact" ><button className={styles.button}>Let's do this</button></Link>
+            <Link  href="/contact" passHref ><button className={styles.button}>Let's do this</button></Link>
          
               </Col>
             
@@ -273,12 +273,10 @@ export default function Home() {
           </div>
             <div> <h5>Living, learning, & leveling up one day at a time.</h5></div>
             <div className={styles.icons}>
-            <Link  href="https://kisafatima.github.io/MHCollection/" ><BsTwitter className={styles.icon} /></Link>
-              <Link href="mailto:kisafatima.09@gmail.com">
+                  <BsTwitter className={styles.icon} />
                  <MdOutlineEmail className={styles.icon} />
-                 </Link>
-                 <a><Link href="https://www.linkedin.com/in/kisa-fatima-75324920b/"><RiLinkedinFill className={styles.icon} /></Link></a>
-                 <a><Link href="https://github.com/kisafatima"><AiOutlineGithub className={styles.icon} /></Link></a>
+                 <RiLinkedinFill className={styles.icon} />
+                 <AiOutlineGithub className={styles.icon} />
             
             </div>
         </div>

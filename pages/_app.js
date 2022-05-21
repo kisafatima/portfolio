@@ -5,9 +5,10 @@ import "@fontsource/tenor-sans/400.css";
 import "@fontsource/itim/400.css";
 import "@fontsource/ibm-plex-sans-thai-looped/400.css";
 import "@fontsource/sriracha/400.css";
+import { forwardRef } from 'react';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+function MyApp({ Component, pageProps, ref }) {
+  return <Component {...pageProps} forwardedRef={ref}/>
 }
 
 export default MyApp
