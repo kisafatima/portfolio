@@ -10,7 +10,8 @@ module.exports = {
     ignoreDuringBuilds: true,
   },
   images: {
-    domains: ['https://imgbb.com/'],
-  },
+
+    domains: ['kisafatima.vercel.app']
+  }
 
 }

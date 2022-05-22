@@ -87,7 +87,7 @@ font-family: "IBM Plex Sans Thai Looped", sans-serif;
   bottom: 80px;
   background-color: white;
   margin: 0px 5% 0px 5%;
-  padding: 20px 0px 20px 40px;
+  padding: 20px 0px 20px 0px;
   z-index: 1;
   display: flex;
   justify-content: space-around;
